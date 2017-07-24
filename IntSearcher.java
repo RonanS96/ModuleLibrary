@@ -96,6 +96,12 @@ public class IntSearcher
 		return false;
 	}
 	
+	/** Print the contents of an array in the format
+	 *  [element1, element2, element3, ...]
+	 * 
+	 * @param a - the array to be printed 
+	 * @return result - the full String created from the array.
+	 */
 	public String printArray(int[] a)
 	{
 		String result = "[";
