@@ -1,10 +1,10 @@
 package DynamicDataStructures;
 
-public interface QueueIF<E> 
+public interface QueueIF 
 {
 	int size();
 	boolean isEmpty();
-	E first();
-	void enqueue();
-	E dequeue();
+	int first();
+	void enqueue(int element);
+	int dequeue();
 }

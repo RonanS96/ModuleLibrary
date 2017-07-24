@@ -11,6 +11,12 @@ import java.util.Arrays;
 
 public class IntSorter 
 {
+	// empty constructor
+	public IntSorter()
+	{
+		
+	}
+	
 	public IntSorter(int[] array)
 	{
 		/* Uncomment below 1 by 1 for testing. */
@@ -19,9 +25,9 @@ public class IntSorter
 		//insertionSort(array); // :)
 		//mergeSort(array);		// :|
 		
-		quickSort(array, 0, array.length-1);		// :)
+		/**quickSort(array, 0, array.length-1);		// :)
 		System.out.println("Result of Quick Sort:");
-		System.out.println("" + Arrays.toString(array));
+		System.out.println("" + Arrays.toString(array));*/
 		
 		//flip(array);			// :)
 		//findMax(array);		// :)
